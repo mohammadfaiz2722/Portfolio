@@ -1,3 +1,77 @@
 div{
-    color: rgba(0, 0, 0, 0.614);
+  color: rgba(0, 0, 0, 0.614);
+}
+.custom{
+  display: flex;
+  justify-content: left; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 70vh; /* Adjust height as needed */
+  background-color:#D6D6B1;
+  font-weight: bold;
+  /* z-index: -1; */
+
+}
+
+.text {
+  margin: auto ;
+  width: 50vw;
+
+  text-align: center; 
+
+  font-family: "Playfair Display SC", serif;
+
+}
+/* Hamburger Menu css */
+.ham{
+  position: absolute;
+  right:4%;
+  top:4%;
+   display: none;
+}
+
+/* Responsive dropwdown css */
+.mobile-menu{
+  background-color: #090C02;
+  color: white;
+float: right;
+display: none;
+position: absolute;
+right: -1%;
+top: 0%;
+width: 80vw;
+height: 71vh;
+text-align: center;
+}
+
+
+.mobile-menu a{
+  display: block;
+  margin-top: 50px;
+  width: 10vw;
+  font-size: 1.3rem;
+  /* text-decoration: underline; */
+padding-left: 40%;
+  /* text-align: center; */
+}
+
+/* Cross sign for closing the Dropdown */
+.close-cross{
+color: red;
+font-size: 2rem;
+float: right;
+margin-top: 2%;
+margin-right: 3%;
+color: white;
+}
+/* Media query for mobile devices */
+@media screen and (max-width: 700px) {
+/* Show hamburger icon */
+.ham {
+  display: block;
+}
+
+.show{
+  display: block;
+}
+/* Show responsive menu */
 }

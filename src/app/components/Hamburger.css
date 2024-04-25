@@ -1,0 +1,27 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .center {
+  
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 40px;
+    /* height: 10vh; */
+    /* display: none; */
+
+  }
+  
+  .center:before,
+  .center:after,
+  .center div {
+    background: white;
+    content: "";
+    display: block;
+    height: 6px;
+    border-radius: 3px;
+    margin: 7px 0;
+    transition: 0.5s;
+  }

@@ -1,0 +1,109 @@
+.heading {
+    font-family: "Playfair Display SC", serif;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    height: 10vh;
+    padding: 13px 22px;
+    background-color: #090C02;
+    color: white;
+}
+
+.main-box {
+    height: 100vh;
+    background-color: #DBD8B3;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust spacing between projects */
+}
+
+.project1,
+.project2,
+.project3 {
+    /* border: 2px solid black; */
+    margin-bottom: 20px;
+     
+}
+
+.project1-image{
+background: url('./project1.png');
+border-radius: 12px;
+    width: 15vw;
+    height: 24vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-top: 20px; */
+    margin-left: 1%;
+
+}
+.project2-image{
+background: url('./project2.png');
+border-radius: 12px;
+    width: 15vw;
+    height: 24vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-top: 20px; */
+    margin-left: 1%;
+
+}
+.project3-image{
+background: url('./project3.png');
+border-radius: 12px;
+    width: 15vw;
+    height: 24vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-top: 20px; */
+    margin-left: 1%;
+
+}
+
+.project1-des,
+.project2-des,
+.project3-des {
+    margin-left: 5%;
+    margin-top: 0.4%;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: "Source Sans 3", sans-serif;
+    color: #3B1C32;
+    font-size: 1.5rem;
+}
+.project2-des{
+    margin-left: 2% !important;
+}
+.project3-des{
+    margin-left: 4% !important;
+}
+.des,
+.des2,
+.des3 {
+    position: absolute;
+    margin-left: 19%;
+    font-family: "Sedan", serif; /* Make sure "Sedan" font is correctly loaded */
+    color: black;
+    font-weight: bold;
+    margin-top: 3%;
+}
+.project2-des,
+.project3-des{
+    margin-left: 3%;
+}
+@media only screen and (max-width: 768px) {
+    .project1-image,
+    .project2-image,
+    .project3-image {
+        width: 100%; /* Full width on smaller screens */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .project1-des,
+    .project2-des,
+    .project3-des {
+        margin-left: 0; /* Remove left margin */
+    }
+}
