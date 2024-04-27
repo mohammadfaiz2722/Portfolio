@@ -16,13 +16,11 @@
 .projects-container {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Adjust spacing between projects */
 }
 
 .project1,
 .project2,
 .project3 {
-    /* border: 2px solid black; */
     margin-bottom: 20px;
      
 }
@@ -34,7 +32,6 @@ border-radius: 12px;
     height: 24vh;
     background-size: cover;
     background-repeat: no-repeat;
-    /* margin-top: 20px; */
     margin-left: 1%;
 
 }
@@ -45,7 +42,6 @@ border-radius: 12px;
     height: 24vh;
     background-size: cover;
     background-repeat: no-repeat;
-    /* margin-top: 20px; */
     margin-left: 1%;
 
 }
@@ -56,7 +52,6 @@ border-radius: 12px;
     height: 24vh;
     background-size: cover;
     background-repeat: no-repeat;
-    /* margin-top: 20px; */
     margin-left: 1%;
 
 }
@@ -92,18 +87,43 @@ border-radius: 12px;
 .project3-des{
     margin-left: 3%;
 }
-@media only screen and (max-width: 768px) {
-    .project1-image,
-    .project2-image,
-    .project3-image {
-        width: 100%; /* Full width on smaller screens */
-        height: auto; /* Maintain aspect ratio */
-        margin-left: 0; /* Remove left margin */
-    }
 
-    .project1-des,
-    .project2-des,
-    .project3-des {
-        margin-left: 0; /* Remove left margin */
+
+
+@media screen and (max-width: 700px) {
+    .heading{
+        width: 101vw;
     }
+    .main-box{
+        width: 101vw;
+        margin-top: -1.3px;
+        display: flex;
+        height: 80vh;
+        overflow-x: auto;
+    }
+    .des{
+        display: none;
+    }
+    .image-box{
+        margin-top: 112px;
+    }
+    .project1-image,.project2-image,.project3-image{
+        width: 90vw;
+        margin: auto;
+        white-space: nowrap;
+        margin-left: 22px;
+        height: 40vh;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+    }
+    .project3-image{
+        
+        margin-right: 22px;
+    }
+    
+.project1-des,.project2-des,.project3-des{
+    text-align: center;
+    margin-top: 7%;
+}
+   
 }

@@ -1,32 +1,32 @@
 div{
-  color: rgba(0, 0, 0, 0.614);
+  color: semi-black;
 }
 .custom{
   display: flex;
-  justify-content: left; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  height: 70vh; /* Adjust height as needed */
+  justify-content: left; 
+  align-items: center; 
+  height: 70vh; 
   background-color:#D6D6B1;
+  /* B89E97 */
   font-weight: bold;
-  /* z-index: -1; */
 
 }
 
 .text {
   margin: auto ;
-  width: 50vw;
-
+  width: 70vw;
   text-align: center; 
-
+  font-size: 1.3rem;
   font-family: "Playfair Display SC", serif;
 
 }
 /* Hamburger Menu css */
 .ham{
   position: absolute;
-  right:4%;
-  top:4%;
+  right:7%;
+  top:3%;
    display: none;
+
 }
 
 /* Responsive dropwdown css */
@@ -49,9 +49,8 @@ text-align: center;
   margin-top: 50px;
   width: 10vw;
   font-size: 1.3rem;
-  /* text-decoration: underline; */
 padding-left: 40%;
-  /* text-align: center; */
+  font-family: "Playfair Display SC", serif;
 }
 
 /* Cross sign for closing the Dropdown */
@@ -73,5 +72,14 @@ color: white;
 .show{
   display: block;
 }
-/* Show responsive menu */
+.custom{
+  width: 101vw;
+  height: 60vh;
+
+}
+.text{
+  font-size: 1rem;
+margin:auto;
+width: fit-content;
+}
 }

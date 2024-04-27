@@ -22,7 +22,9 @@ const FirstBox = () => {
     <>
     <div className="container custom">
       <h7 className="text">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore debitis soluta consequuntur dicta repellendus inventore nemo quis ratione quod delectus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus distinctio esse, beatae sit rerum unde nesciunt maiores eius quas placeat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quos reprehenderit magnam aut fuga eligendi molestiae aliquid eveniet eaque iusto!
+      I'm Mohammad Faiz, a MERN Stack Developer and Bachelor of Computer Applications student. I'm passionate about web development, specializing in MongoDB, Express.js, React.js, and Node.js. Eager to solve challenges and create user-centric applications.
+
+
       </h7>
     </div>
     <div className="ham" onClick={handleClick}>

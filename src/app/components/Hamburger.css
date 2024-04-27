@@ -20,7 +20,7 @@ body {
     background: white;
     content: "";
     display: block;
-    height: 6px;
+    height: 3px;
     border-radius: 3px;
     margin: 7px 0;
     transition: 0.5s;
