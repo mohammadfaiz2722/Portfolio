@@ -9,7 +9,7 @@
 }
 
 .main-box {
-    height: 100vh;
+    height: 170vh;
     background-color: #DBD8B3;
 }
 
@@ -20,42 +20,55 @@
 
 .project1,
 .project2,
-.project3 {
+.project3,
+.project4,
+.project5 {
     margin-bottom: 20px;
      
 }
 
+
 .project1-image{
 background: url('./project1.png');
-border-radius: 12px;
-    width: 15vw;
-    height: 24vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left: 1%;
+
 
 }
 .project2-image{
 background: url('./project2.png');
-border-radius: 12px;
-    width: 15vw;
-    height: 24vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-left: 1%;
+
 
 }
 .project3-image{
 background: url('./project3.png');
-border-radius: 12px;
+
+}
+.project4-image{
+    background: url('./project4.png');
+}
+.project5-image{
+    background: url('./project5.png');
+}
+.project1-image,.project2-image,.project3-image,.project4-image,.project5-image{
+    border-radius: 12px;
     width: 15vw;
     height: 24vh;
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 1%;
+    /* background-size:a; */
+    /* background-position:-3cap; */
 
 }
-
+.project5-image{
+    background-position-x: center; 
+    /* margin-top: 22px; */
+}
+.project3-image{
+    background-position:-1.5cap;
+}
+.project4-image{
+    background-position:-1.5cap;
+}
 .project1-des,
 .project2-des,
 .project3-des {
@@ -73,21 +86,31 @@ border-radius: 12px;
 .project3-des{
     margin-left: 4% !important;
 }
-.des,
-.des2,
-.des3 {
+.des{
     position: absolute;
     margin-left: 19%;
-    font-family: "Sedan", serif; /* Make sure "Sedan" font is correctly loaded */
+    /* font-family: "Sedan", serif; Make sure "Sedan" font is correctly loaded */
     color: black;
     font-weight: bold;
     margin-top: 3%;
+    font-size: 1.1rem;
+    font-family: "Platypi", serif
 }
 .project2-des,
 .project3-des{
     margin-left: 3%;
 }
-
+/* Link to portfolio */
+.more{
+    position: absolute;
+    
+    display: block;
+ width: fit-content; 
+    /* text-align: center; */
+    text-decoration: underline;
+    margin-left: 80%;
+    margin-top: 12px;
+}
 
 
 @media screen and (max-width: 700px) {
@@ -107,7 +130,7 @@ border-radius: 12px;
     .image-box{
         margin-top: 112px;
     }
-    .project1-image,.project2-image,.project3-image{
+    .project1-image,.project2-image,.project3-image,.project4-image,.project5-image{
         width: 90vw;
         margin: auto;
         white-space: nowrap;
@@ -116,9 +139,10 @@ border-radius: 12px;
         overflow-y: hidden;
         scroll-behavior: smooth;
     }
-    .project3-image{
-        
+    .project5-image{
+     background-position-x: center;   
         margin-right: 22px;
+        
     }
     
 .project1-des,.project2-des,.project3-des{
