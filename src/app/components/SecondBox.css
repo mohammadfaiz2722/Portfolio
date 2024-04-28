@@ -7,9 +7,15 @@
     background-color: #090C02;
     color: white;
 }
-
+/* @font-face {
+    font-family: 'CustomFont'; 
+    src: url('path/to/font/custom-font.woff2') format('woff2'), 
+         url('path/to/font/custom-font.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+  } */
 .main-box {
-    height: 170vh;
+    height: 180vh;
     background-color: #DBD8B3;
 }
 
@@ -76,7 +82,8 @@ background: url('./project3.png');
     margin-top: 0.4%;
     text-decoration: underline;
     font-weight: bold;
-    font-family: "Source Sans 3", sans-serif;
+    /* font-family: "Source Sans 3", sans-serif; */
+    font-family: "Playfair Display", serif;
     color: #3B1C32;
     font-size: 1.5rem;
 }
@@ -91,10 +98,11 @@ background: url('./project3.png');
     margin-left: 19%;
     /* font-family: "Sedan", serif; Make sure "Sedan" font is correctly loaded */
     color: black;
+    margin-top: 2%;
+    font-size: 1.2rem;
+    /* font-family: "Platypi", serif */
+    font-family: "Playfair Display", serif;
     font-weight: bold;
-    margin-top: 3%;
-    font-size: 1.1rem;
-    font-family: "Platypi", serif
 }
 .project2-des,
 .project3-des{
@@ -103,13 +111,11 @@ background: url('./project3.png');
 /* Link to portfolio */
 .more{
     position: absolute;
-    
     display: block;
- width: fit-content; 
-    /* text-align: center; */
+    width: fit-content; 
     text-decoration: underline;
-    margin-left: 80%;
-    margin-top: 12px;
+    margin-left: 85%;
+    margin-top: 3%;
 }
 
 
@@ -148,6 +154,16 @@ background: url('./project3.png');
 .project1-des,.project2-des,.project3-des{
     text-align: center;
     margin-top: 7%;
+}
+.more{
+
+    margin-top: 130%;
+    border: 2px solid red;
+    width: 200px;
+    position: absolute;
+
+right: 30px;
+/* display: none; */
 }
    
 }

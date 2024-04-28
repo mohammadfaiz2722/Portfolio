@@ -1,6 +1,7 @@
 import React from 'react';
 import './SecondBox.css';
 import Link from 'next/link';
+// import Footer from './Footer';
 // import profileImage from './project1.png';
 
 
@@ -74,9 +75,9 @@ const SecondBox = () => {
           </div>
         </div>
 
-          <Link className='more' href="#">Deep Dive in my projects</Link>
+          <Link className='more' href="https://images.search.yahoo.com/search/images;_ylt=Awr4.opEkS5mxpEOc.pXNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=LOL&fr2=piv-web&type=E211US885G0&fr=mcafee#id=1&iurl=https%3A%2F%2Fwww.clipartkey.com%2Fmpngs%2Fm%2F39-397250_lol-doll-clipart-lol-surprise-diva-png.png&action=click">Deep Dive in my projects</Link>
       </div>
-      
+      {/* <Footer/> */}
     </div>
   );
 };
