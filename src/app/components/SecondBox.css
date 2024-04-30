@@ -163,7 +163,7 @@ background: url('./project3.png');
     position: absolute;
 
 right: 30px;
-/* display: none; */
+display: none;
 }
    
 }

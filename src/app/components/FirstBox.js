@@ -31,7 +31,7 @@ const FirstBox = () => {
           <Hamburger/>
         </div>
     <div className={`mobile-menu ${ mobile?' show' :''}`}>
-      <div className="close-cross" onClick={handleCross}>
+      <div className="close-cross" onClick={handleClick}>
       &times;
 
       </div>

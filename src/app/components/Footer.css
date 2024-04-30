@@ -5,11 +5,16 @@
     color: white    ;
     height: 10vh;
     position: absolute;
-    left: 85%;
+    left: 87%;
     /* margin-left: 12px; */
 }
 .leo{
-    margin-left: 12px;
+    margin-left: 30px;
+    margin-top: 12px;
+
+}
+.leo:hover{
+    cursor: pointer;
 }
 .bottom-box{
     width: 100%;
@@ -25,4 +30,43 @@ left: 40%;
     margin-top: 12%;
     color: white;    ;
 
+} 
+.love{
+    position: absolute;
+    /* top:20%; */
+    margin-top: 0;
+   
+}
+.love p{
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+.icons{
+    position: absolute;
+    left: 60%;
+}
+.para{
+    /* border: 2px solid red; */
+    /* margin-right:70%; */
+
+    width: 90vw;
+    position: absolute;
+    /* top: 20%; */
+    margin-top:29% ;
+    left: 10%;
+    height: 4vh;
+    /* border: 2px solid red; */
+/* bottom: -/10%; */
+}
+.bottom-box{
+    width: 101vw;
+    height: 20vh;
+    /* border: 2px solid red; */
+    /* margin-top: 12px; */
+}
+.love {
+    margin-top: 3%;
+       /* font-family: "Playfair Display", serif; */
+}
 }
