@@ -14,7 +14,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "next": "^14.3.0-canary.26",
+    "next": "^14.3.0-canary.33",
     "react": "^18",
     "react-dom": "^18",
     "react-feather": "^2.0.10"

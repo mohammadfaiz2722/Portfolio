@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-
+import Link from 'next/link';
 import './Navbar.css';
 
 const resumePdf = '/resume.pdf';
@@ -13,11 +13,11 @@ const Navbar = () => {
         {/* <div className="rounded-full overflow-hidden h-12 w-12 mr-2">
           <Image src={profileImage} width={100} height={100} alt="Profile Image" />
         </div> */}
-        <a href="#" id='fonts' className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Home</a>
-        <a href="#" id='fonts'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">About</a>
-        <a href="#" id='fonts'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Portfolio</a>
+        <Link href="/" id='fonts' className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Home</Link>
+        <Link href="/about" id='fonts'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">About</Link>
+        <Link href="#" id='fonts'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Portfolio</Link>
         {/* Open resume PDF in a new window on click */}
-        <a 
+        <Link 
         id='fonts'
           href={resumePdf}
           className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6"
@@ -25,7 +25,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
         >
           Resume
-        </a>
+        </Link>
       </div>
     </nav>
     

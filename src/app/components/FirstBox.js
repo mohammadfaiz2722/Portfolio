@@ -7,17 +7,12 @@ import Hamburger from './Hamburger';
 const resumePdf = '/resume.pdf';
 const FirstBox = () => {
   const [mobile,setMobile]=useState(false)
-  const [cross,setCross]=useState(mobile)
   const handleClick=()=>{
     setMobile(!mobile);
     console.log("On clicked caleed");
   
   }
-  const handleCross=()=>
-  {
-    setMobile(false)
-    setCross(mobile)
-  }
+  
   return (
     <>
     <div className="container custom">
