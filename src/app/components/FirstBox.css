@@ -1,67 +1,13 @@
 div{
   color: semi-black;
 }
-.custom{
-  display: flex;
-  justify-content: left; 
-  align-items: center; 
-  height: 70vh; 
-  background-color:#D6D6B1;
-  /* B89E97 */
-  font-weight: bold;
 
-}
 
-.text {
-  margin: auto ;
-  width: 70vw;
-  text-align: center; 
-  font-size: 1.3rem;
-  font-family: "Playfair Display SC", serif;
-
-}
 /* Hamburger Menu css */
-.ham{
-  position: absolute;
-  right:7%;
-  top:3%;
-   display: none;
 
-}
 
 /* Responsive dropwdown css */
-.mobile-menu{
-  background-color: #090C02;
-  color: white;
-float: right;
-display: none;
-position: absolute;
-right: -1%;
-top: 0%;
-width: 80vw;
-height: 71vh;
-text-align: center;
-}
 
-
-.mobile-menu a{
-  display: block;
-  margin-top: 50px;
-  width: 10vw;
-  font-size: 1.3rem;
-padding-left: 40%;
-  font-family: "Playfair Display SC", serif;
-}
-
-/* Cross sign for closing the Dropdown */
-.close-cross{
-color: red;
-font-size: 2rem;
-float: right;
-margin-top: 2%;
-margin-right: 3%;
-color: white;
-}
 /* Media query for mobile devices */
 @media screen and (max-width: 700px) {
 /* Show hamburger icon */
@@ -71,12 +17,9 @@ color: white;
 
 .show{
   display: block;
+  
 }
-.custom{
-  width: 101vw;
-  height: 60vh;
 
-}
 .text{
   font-size: 1rem;
 margin:auto;

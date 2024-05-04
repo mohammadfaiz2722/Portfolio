@@ -19,7 +19,7 @@
 .bottom-box{
     width: 100%;
     height: 30vh;
-    background-color: #090C02;
+
 }
 
 .para{
@@ -27,7 +27,7 @@
 left: 40%;
 /* top: ; */
     /* text-align: center; */
-    margin-top: 12%;
+    margin-top: 15%;
     color: white;    ;
 
 } 
@@ -41,6 +41,24 @@ left: 40%;
     color: white;
 }
 
+.qr-code{
+    width: 12vw;
+    height: 25vh;
+
+    position: absolute;
+    /* border: 2px solid red; */
+
+    top: 80%;
+    background: url('./mountains.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+footer{
+    height: 37vh;
+    /* border: 2px solid red; */
+    background-color: #090C02;
+}
 @media screen and (max-width: 700px) {
 .icons{
     position: absolute;
@@ -53,7 +71,7 @@ left: 40%;
     width: 90vw;
     position: absolute;
     /* top: 20%; */
-    margin-top:29% ;
+    margin-top:45% ;
     left: 10%;
     height: 4vh;
     /* border: 2px solid red; */
@@ -61,12 +79,26 @@ left: 40%;
 }
 .bottom-box{
     width: 101vw;
-    height: 20vh;
+    height: 25vh;
     /* border: 2px solid red; */
     /* margin-top: 12px; */
 }
 .love {
     margin-top: 3%;
        /* font-family: "Playfair Display", serif; */
+}
+footer{
+    position: absolute;
+    /* margin-top:140%; */
+    height: 25vh;
+    width: 101vw;
+}
+
+/* mage qr code */
+.qr-code{
+    width: 22vw;
+    height: 10vh;
+    /* position: absolute; */
+    margin-left: -160%;
 }
 }

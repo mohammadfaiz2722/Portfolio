@@ -1,7 +1,5 @@
 // components/Footer.js
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faWhatsapp, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import './Footer.css'
 import { Facebook, Instagram, Twitter } from 'react-feather';
 import Link from 'next/link';
@@ -31,7 +29,10 @@ const Footer = () => {
 
 
                 </div>
-           
+           <div className="qr-code">
+          
+
+           </div>
             </div>
             <div className="copyright">
 

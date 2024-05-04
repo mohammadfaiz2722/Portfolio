@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image'; // Import the Image component from Next.js
 import './FirstBox.css';
 // import profileImage from './profile3.jpg';
+import Link from 'next/link';
 import Hamburger from './Hamburger';
 const resumePdf = '/resume.pdf';
 const FirstBox = () => {
@@ -30,10 +31,10 @@ const FirstBox = () => {
       &times;
 
       </div>
-      <a href="#" id='fonts1' className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Home</a>
-        <a href="#" id='fonts2'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">About</a>
-        <a href="#" id='fonts3'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Portfolio</a>
-        <a 
+      <Link href="/" id='fonts1' className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Home</Link>
+        <Link href="/about" id='fonts2'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">About</Link>
+        <Link href="#" id='fonts3'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Portfolio</Link>
+        <Link 
         id='fonts4'
           href={resumePdf}
           className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6"
@@ -41,7 +42,7 @@ const FirstBox = () => {
           rel="noopener noreferrer"
         > 
           Resume
-        </a>
+        </Link>
       </div>
     </>
   );

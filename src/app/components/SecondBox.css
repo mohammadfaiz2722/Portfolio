@@ -1,12 +1,4 @@
-.heading {
-    font-family: "Playfair Display SC", serif;
-    font-size: 1.4rem;
-    font-weight: bolder;
-    height: 10vh;
-    padding: 13px 22px;
-    background-color: #090C02;
-    color: white;
-}
+
 /* @font-face {
     font-family: 'CustomFont'; 
     src: url('path/to/font/custom-font.woff2') format('woff2'), 

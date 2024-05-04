@@ -1,0 +1,94 @@
+#last-box{
+    /* border: 2px solid red; */
+    /* height: 30vw; */
+    
+    overflow: auto;
+    margin-top: 12%;
+}
+
+.about-box{
+    width: auto;
+    height: 40vh;
+    /* background-color: red; */
+}
+.head{
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid black; */
+    position: absolute;
+    /* margin-top: 1px; */
+    margin-top: -15%;
+    text-decoration: underline;
+left: 12px;
+    /* margin-right: 22px; */
+    /* top: 10%; */
+
+}
+
+.details{
+    width: fit-content;
+    height: fit-content;
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 15%;
+
+    margin-top: -11%;
+}
+.underline{
+    background-color: #130303;
+    width: 100vw;
+    height: 2vh;
+    /* border: wpx solid black; */
+}
+.second-box{
+    /* background-color: rebeccapurple; */
+    /* z-index: 11111; */
+    /* border: 2px solid red; */
+    height: 80vh;
+}
+
+@media screen and (max-width: 700px) {
+
+    .custom{
+        width: 101vw;
+        height: 60vh;
+      
+      }
+      #About-me{
+        width: 101vw;
+      }
+      .details{
+        left: 1%;
+        font-size: 1rem;
+      }
+      .underline{
+        /* display: none; */
+        margin-top: 70%;
+      }
+      .head{
+        top: 100%;
+      }
+      #head1{
+        top:86%;
+        left: 35%;
+        font-weight: bolder;
+        font-size: 20px;
+      }
+      #head2{
+        top:145%;
+        left: 35%;
+        font-weight: bolder;
+        font-size: 20px;
+      }
+      #head3{
+        top:204%;
+        left: 35%;
+        font-weight: bolder;
+        font-size: 20px;
+      }
+      #last-para{
+        position: absolute;
+        top: 210%;
+
+      }
+}
