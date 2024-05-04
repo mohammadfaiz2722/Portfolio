@@ -1,9 +1,11 @@
 #last-box{
     /* border: 2px solid red; */
     /* height: 30vw; */
-    
-    overflow: auto;
-    margin-top: 12%;
+    /* position: absolute; */
+    /* overflow: auto; */
+    /* background-color: rebeccapurple; */
+    /* margin-top: 19%; */
+    /* height: 40vh; */
 }
 
 .about-box{

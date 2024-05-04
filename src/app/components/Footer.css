@@ -26,6 +26,8 @@
     left: 40%;
     margin-top: 15%;
     color: white;
+    /* background-color: #090C02; */
+    /* width: 101vw; */
 }
 
 .love {
@@ -56,15 +58,20 @@ footer {
 @media screen and (max-width: 700px) {
     .icons {
         position: absolute;
-        left: 60%;
+        left: 55%;
     }
 
     .para {
-        width: 90vw;
+        /* width: 90vw; */
         position: absolute;
-        margin-top: 45%;
-        left: 10%;
-        height: 4vh;
+        margin-top: 58%;
+        left:0%;
+        width: 100vw;
+        text-align: center;
+        bottom: 0%;
+        /* border: 2px solid red; */
+        /* border: 2px solid red; */
+        /* height: 4vh; */
     }
 
     .bottom-box {
@@ -78,13 +85,12 @@ footer {
 
     footer {
         position: absolute;
-        height: 25vh;
-        width: 101vw;
     }
 
     .qr-code {
-        width: 22vw;
-        height: 10vh;
+        width: 34vw;
+        height: 17vh;
         margin-left: -160%;
+        margin-top: 90%;
     }
 }
