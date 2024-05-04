@@ -29,8 +29,8 @@ const PersonalInfo = () => {
       {/* Second About Box */}
       <div className='about-box text custom' style={{marginTop:"-6%"}} >
         {/* <div className="underline"></div> */}
-        <div className="head" id='head2' style={{marginTop:'-16%'}}>Educational Info</div>
-        <div className="details" style={{marginTop:'-12%'}}>I completed my schooling at Avadh International (10+2) and am currently pursuing BCA at Jhunjhunwala PG College. My programming journey has equipped me with a diverse set of languages including C, C++, Python, Java, JavaScript, and the MERN stack. These experiences have not only enriched my technical skills but also fueled my passion for problem-solving and innovation in the digital realm.</div>
+        <div className="head " id='head2'  style={{marginTop:'-16%'}}>Educational Info</div>
+        <div className="details second-last-box" style={{marginTop:'-12%'}}>I completed my schooling at Avadh International (10+2) and am currently pursuing BCA at Jhunjhunwala PG College. My programming journey has equipped me with a diverse set of languages including C, C++, Python, Java, JavaScript, and the MERN stack. These experiences have not only enriched my technical skills but also fueled my passion for problem-solving and innovation in the digital realm.</div>
         <div className="underline"></div>
       </div>
       <div className='about-box text custom' id='last-box' style={{marginTop:"-3%"}} >

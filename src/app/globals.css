@@ -1,85 +1,93 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
 
-.text {
-    margin: auto ;
-    width: 70vw;
-    text-align: center; 
-    font-size: 1.3rem;
-    font-family: "Playfair Display SC", serif;
-  
+  .text {
+      margin: auto ;
+      width: 70vw;
+      text-align: center; 
+      font-size: 1.3rem;
+      font-family: "Playfair Display SC", serif;
+    
+    }
+    .custom{
+      display: flex;
+      justify-content: left; 
+      align-items: center; 
+      height: 70vh; 
+      background-color:#D6D6B1;
+      /* B89E97 */
+      font-weight: bold;
+    /* width: 100vw; */
+    }
+    .heading {
+      font-family: "Playfair Display SC", serif;
+      font-size: 1.4rem;
+      font-weight: bolder;
+      height: 10vh;
+      padding: 13px 22px;
+      background-color: #090C02;
+      color: white;
   }
-  .custom{
-    display: flex;
-    justify-content: left; 
-    align-items: center; 
-    height: 70vh; 
-    background-color:#D6D6B1;
-    /* B89E97 */
-    font-weight: bold;
-  /* width: 100vw; */
+  .ham{
+    position: absolute;
+    right:7%;
+    top:3%;
+    display: none;
+
   }
-  .heading {
-    font-family: "Playfair Display SC", serif;
-    font-size: 1.4rem;
-    font-weight: bolder;
-    height: 10vh;
-    padding: 13px 22px;
+
+
+  /* Mobile responsiveness */
+  .mobile-menu{
     background-color: #090C02;
     color: white;
-}
-.ham{
+  float: right;
+  display: none;
   position: absolute;
-  right:7%;
-  top:3%;
-   display: none;
-
-}
-
-
-/* Mobile responsiveness */
-.mobile-menu{
-  background-color: #090C02;
-  color: white;
-float: right;
-display: none;
-position: absolute;
-right: -1%;
-top: 0%;
-width: 80vw;
-height: 71vh;
-text-align: center;
-
-}
+  right: -1%;
+  top: 0%;
+  width: 80vw;
+  height: 71vh;
+  text-align: center;
+  /* animation:myAnimation 2s ease-in-out 1s infinite alternate forwards running; */
+  animation: slideIn 0.5s ease-in-out forwards;
+  }
 
 
-.mobile-menu a{
-  display: block;
-  margin-top: 50px;
-  width: 10vw;
-  font-size: 1.3rem;
-padding-left: 40%;
-  font-family: "Playfair Display SC", serif;
-}
-
-/* Cross sign for closing the Dropdown */
-.close-cross{
-color: red;
-font-size: 2rem;
-float: right;
-margin-top: 2%;
-margin-right: 3%;
-color: white;
-}
-@media screen and (max-width: 700px) {
-  /* Show hamburger icon */
-  .ham {
+  .mobile-menu a{
     display: block;
+    margin-top: 50px;
+    width: 10vw;
+    font-size: 1.3rem;
+  padding-left: 40%;
+    font-family: "Playfair Display SC", serif;
   }
-  .custom{
-    width: 101vw;
-    height: 60vh;
-  
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
+  /* Cross sign for closing the Dropdown */
+  .close-cross{
+  color: red;
+  font-size: 2rem;
+  float: right;
+  margin-top: 2%;
+  margin-right: 3%;
+  color: white;
+  }
+  @media screen and (max-width: 700px) {
+    /* Show hamburger icon */
+    .ham {
+      display: block;
+    }
+    .custom{
+      width: 101vw;
+      height: 60vh;
+    
+    }
+  }

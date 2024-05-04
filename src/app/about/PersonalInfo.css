@@ -21,7 +21,7 @@
     /* margin-top: 1px; */
     margin-top: -15%;
     text-decoration: underline;
-left: 12px;
+    left: 12px;
     /* margin-right: 22px; */
     /* top: 10%; */
 
@@ -77,20 +77,24 @@ left: 12px;
         font-size: 20px;
       }
       #head2{
-        top:145%;
-        left: 35%;
+        top:139%;
+        left: 29%;
         font-weight: bolder;
         font-size: 20px;
       }
       #head3{
-        top:204%;
-        left: 35%;
+        top:196%;
+        left:30%;
         font-weight: bolder;
         font-size: 20px;
       }
       #last-para{
         position: absolute;
-        top: 210%;
+        top: 201%;
 
+      }
+      .second-last-box
+      {
+top: 145%;
       }
 }
