@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import './Navbar.css';
 
@@ -15,8 +14,7 @@ const Navbar = () => {
         </div> */}
         <Link href="/" id='fonts' className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Home</Link>
         <Link href="/about" id='fonts'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">About</Link>
-        <Link href="#" id='fonts'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Portfolio</Link>
-        {/* Open resume PDF in a new window on click */}
+        <Link href="/portfolio" id='fonts'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Portfolio</Link>
         <Link 
         id='fonts'
           href={resumePdf}

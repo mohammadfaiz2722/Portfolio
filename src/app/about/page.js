@@ -10,7 +10,6 @@ const page = () => {
   const [mobile,setMobile]=useState(false)
   const handleClick=()=>{
     setMobile(!mobile);
-    // console.log("On clicked caleed");
   
   }
   return (
@@ -26,7 +25,7 @@ const page = () => {
       </div>
       <Link href="/" id='fonts1' className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Home</Link>
         <Link href="/about" id='fonts2'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">About</Link>
-        <Link href="#" id='fonts3'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Portfolio</Link>
+        <Link href="portfolio" id='fonts3'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Portfolio</Link>
         <Link 
         id='fonts4'
           href={resumePdf}
@@ -37,8 +36,8 @@ const page = () => {
           Resume
         </Link>
       </div>
-    <div className='about-box text custom'    id='imp' >
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque eaque ab harum illum itaque? Maxime quam eligendi blanditiis porro, ipsum tenetur iure, dolorem nihil, quae vel pariatur beatae officia libero! Ex earum dolores ipsa eius ut, tempora vitae nesciunt eaque error saepe quae laborum voluptatibus aliquam exercitationem voluptates natus neque? Lorem ipsum dolor,
+    <div className='about-box text custom' id='imp' >
+    Explore my world as Mohammad Faiz, a driven MERN Stack Developer and Computer Applications enthusiast. Journey through my professional and educational endeavors, discovering a passion for web development and a commitment to crafting innovative solutions. Let's connect and innovate together!
     </div>
     <PersonalInfo/>
     </>
