@@ -1,15 +1,13 @@
-import React from 'react';
-import './SecondBox.css';
-import Link from 'next/link';
-// import Footer from './Footer';
-// import profileImage from './project1.png';
-
-
-const SecondBox = () => {
+import React from 'react'
+import '../components/SecondBox.css'
+import './SecondPort.css'
+import Link from 'next/link'
+const SecondPort = () => {
   return (
-    <div className='container'>
+    <>
+   <div className='container'>
       <div className="heading text-center">
-        A glimpse of my Projects
+      Technologies I Know
       </div>
       <div className="main-box">
         {/* Project 1 */}
@@ -18,7 +16,7 @@ const SecondBox = () => {
           <div className="image-box">
 <Link href='https://github.com/mohammadfaiz2722/NotesWebsite.github.io'>
 
-          <div className="project1-image">
+          <div className="project1-image new-image">
             <div className="des"> A web application built using vanilla JavaScript, HTML, and Bootstrap that allows users to create and save notes. Users can add titles and content to their notes, which are then stored in the browser's local storage for easy access and retrieval. The intuitive interface and responsive design enhance the note-taking experience, making it convenient for users to organize their thoughts and ideas.
 </div>
           </div>
@@ -26,7 +24,7 @@ const SecondBox = () => {
           </div>
           <div className="project1-des" >
 
-            iNoteBook
+            Mern Stack
           </div>
         </div>
 
@@ -41,8 +39,8 @@ const SecondBox = () => {
           </div>
           </div>
           </Link>
-          <div className="project2-des">
-         Library Management
+          <div className="project2-des" style={{marginLeft:'6% !important'}}>
+         Python
           </div>
         </div>
 
@@ -54,8 +52,8 @@ const SecondBox = () => {
             <div className="des">A text editing tool created using React and Bootstrap, empowering users to modify paragraphs effortlessly. With features for formatting text, users can customize their content as needed. Additionally, the tool provides a word count feature, allowing users to track the number of words in their paragraphs in real-time. The intuitive interface and responsive design enhance the user experience, making text editing and analysis straightforward and convenient.</div>
           </div>
           </div>
-          <div className="project3-des">
-            Text Utility
+          <div className="project3-des" style={{marginLeft:'6% !important'}}>
+           Java
           </div>
         </div>
         <div className="project4">
@@ -67,8 +65,8 @@ const SecondBox = () => {
           </div>
   </Link>            
           </div>
-          <div className="project3-des">
-            Shatabdi News
+          <div className="project3-des" style={{marginLeft:'8% !important'}}>
+            C
           </div>
         </div>
         <div className="project5">
@@ -81,8 +79,8 @@ const SecondBox = () => {
           </div>
           </div>
           </Link>
-          <div className="project3-des">
-            Alarm Clock
+          <div className="project3-des" style={{marginLeft:'7% !important'}}>
+                C++
           </div>
         </div>
 
@@ -90,7 +88,9 @@ const SecondBox = () => {
       </div>
       {/* <Footer/> */}
     </div>
-  );
-};
 
-export default SecondBox;
+    </>
+  )
+}
+
+export default SecondPort

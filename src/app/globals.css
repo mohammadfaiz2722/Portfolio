@@ -54,7 +54,6 @@
   animation: slideIn 0.5s ease-in-out forwards;
   }
 
-
   .mobile-menu a{
     display: block;
     margin-top: 50px;
@@ -71,6 +70,7 @@
     transform: translateX(0);
   }
 }
+
   /* Cross sign for closing the Dropdown */
   .close-cross{
   color: red;

@@ -2,8 +2,8 @@
 import React from 'react'
 import './about.css'
 import PersonalInfo from './PersonalInfo'
-import Hamburger from '../components/Hamburger';
 import Link from 'next/link';
+import Hamburger from '../components/Hamburger';
 import { useState } from 'react';
 const resumePdf = '/resume.pdf';
 const page = () => {

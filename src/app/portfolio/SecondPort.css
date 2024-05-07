@@ -1,0 +1,86 @@
+.new-image{
+background: url('./mern-stack.png');
+background-position: -3cap;
+}
+.project2-image{
+    background: url('./Python.jpg') ;
+    background-position: -3cap;
+}
+.project3-image{
+    background: url('../components/Java.webp');
+    background-position-x: center;   
+}
+.project4-image{
+    background: url('../components/C.webp');
+    background-position-x: center;   
+}
+.project5-image{
+    background: url('../components/c++.jpg');
+    background-position-x: center;   
+}
+.project1-image,.project2-image,.project3-image,.project4-image,.project5-image{
+    border-radius: 12px;
+    width: 15vw;
+    height: 24vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 1%;
+    /* background-size:a; */
+    /* background-position:-3cap; */
+
+}
+
+
+@media screen and (max-width: 700px) {
+    .heading{
+        width: 101vw;
+    }
+    .main-box{
+        width: 101vw;
+        margin-top: -1.3px;
+        display: flex;
+        height: 80vh;
+        overflow-x: auto;
+    }
+    .des{
+        display: none;
+    }
+    .image-box{
+        margin-top: 112px;
+    }
+    .project1-image,.project2-image,.project3-image,.project4-image,.project5-image{
+        width: 90vw;
+        margin: auto;
+        white-space: nowrap;
+        margin-left: 22px;
+        height: 40vh;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+
+    }
+    .project5-image{
+     background-position-x: center;   
+        margin-right: 22px;
+        
+    }
+    .project2-image,.project1-image{
+        background-position-x:center ;
+    }
+
+    
+.project1-des,.project2-des,.project3-des{
+    text-align: center;
+    margin-top: 7%;
+}
+.more{
+
+    margin-top: 130%;
+    border: 2px solid red;
+    width: 200px;
+    position: absolute;
+
+right: 30px;
+display: none;
+}
+   
+}
