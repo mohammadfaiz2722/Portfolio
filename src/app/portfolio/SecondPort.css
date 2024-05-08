@@ -1,33 +1,107 @@
-.new-image{
+
+/* @font-face {
+    font-family: 'CustomFont'; 
+    src: url('path/to/font/custom-font.woff2') format('woff2'), 
+         url('path/to/font/custom-font.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+  } */
+  .main-box {
+    height: 180vh;
+    background-color: #DBD8B3;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project1,
+.project2,
+.project3,
+.project4,
+.project5 {
+    margin-bottom: 20px;
+     
+}
+
+
+.new-project1-image{
 background: url('./mern-stack.png');
-background-position: -3cap;
+
+
+
 }
-.project2-image{
-    background: url('./Python.jpg') ;
-    background-position: -3cap;
+.new-project2-image{
+    background: url('./Python.jpg');
+    
+    
 }
-.project3-image{
+.new-project3-image{
     background: url('../components/Java.webp');
-    background-position-x: center;   
+
 }
-.project4-image{
+.new-project4-image{
     background: url('../components/C.webp');
-    background-position-x: center;   
+    
 }
-.project5-image{
+.new-project5-image{
     background: url('../components/c++.jpg');
-    background-position-x: center;   
 }
-.project1-image,.project2-image,.project3-image,.project4-image,.project5-image{
+.new-project1-image,.new-project2-image,.new-project3-image,.new-project4-image,.new-project5-image{
     border-radius: 12px;
     width: 15vw;
     height: 24vh;
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 1%;
-    /* background-size:a; */
-    /* background-position:-3cap; */
+    background-position-x:center ;
+    /* box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3); */
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5) inset;
 
+}
+
+.new-project1-des,
+.new-project2-des,
+.new-project3-des {
+    margin-left: 5%;
+    margin-top: 0.4%;
+    text-decoration: underline;
+    font-weight: bold;
+    /* font-family: "Source Sans 3", sans-serif; */
+    font-family: "Playfair Display", serif;
+    color: #3B1C32;
+    font-size: 1.5rem;
+}
+.new-project2-des{
+    margin-left: 2% ;
+}
+.new-project3-des{
+    margin-left: 7% ;
+}
+.des{
+    position: absolute;
+    margin-left: 19%;
+    /* font-family: "Sedan", serif; Make sure "Sedan" font is correctly loaded */
+    color: black;
+    margin-top: 2%;
+    font-size: 1.2rem;
+    /* font-family: "Platypi", serif */
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+.new-project2-des,
+.new-project3-des{
+    margin-left: 7%;
+}
+/* Link to portfolio */
+.more{
+    position: absolute;
+    display: block;
+    width: fit-content; 
+    text-decoration: underline;
+    margin-left: 85%;
+    margin-top: 3%;
 }
 
 
@@ -45,10 +119,10 @@ background-position: -3cap;
     .des{
         display: none;
     }
-    .image-box{
+    .new-image-box{
         margin-top: 112px;
     }
-    .project1-image,.project2-image,.project3-image,.project4-image,.project5-image{
+    .new-project1-image,.new-project2-image,.new-project3-image,.new-project4-image,.new-project5-image{
         width: 90vw;
         margin: auto;
         white-space: nowrap;
@@ -56,19 +130,14 @@ background-position: -3cap;
         height: 40vh;
         overflow-y: hidden;
         scroll-behavior: smooth;
-
     }
-    .project5-image{
+    .new-project5-image{
      background-position-x: center;   
         margin-right: 22px;
         
     }
-    .project2-image,.project1-image{
-        background-position-x:center ;
-    }
-
     
-.project1-des,.project2-des,.project3-des{
+.new-project1-des,.new-project2-des,.new-project3-des{
     text-align: center;
     margin-top: 7%;
 }

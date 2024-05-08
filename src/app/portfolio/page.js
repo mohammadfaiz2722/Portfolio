@@ -5,12 +5,15 @@ import Link from 'next/link';
 import Hamburger from '../components/Hamburger';
 import { useState } from 'react';
 const resumePdf = '/resume.pdf';
+// import { useRouter } from 'next/navigation';
+// useEffect
 const page = () => {
-  const [mobile,setMobile]=useState(false)
+    const [mobile,setMobile]=useState(false)
+    // const router=useRouter()
   const handleClick=()=>{
     setMobile(!mobile);
-  
   }
+
   return (
     <>
 
@@ -24,7 +27,7 @@ const page = () => {
       </div>
       <Link href="/" id='fonts1' className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Home</Link>
         <Link href="/about" id='fonts2'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">About</Link>
-        <Link href="portfolio" id='fonts3'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Portfolio</Link>
+        <Link href="/portfolio" id='fonts3'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Portfolio</Link>
         <Link 
         id='fonts4'
           href={resumePdf}

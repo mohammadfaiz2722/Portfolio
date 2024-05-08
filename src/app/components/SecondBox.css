@@ -53,9 +53,8 @@ background: url('./project3.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 1%;
-    /* background-size:a; */
-    /* background-position:-3cap; */
-
+    /* box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.3); */
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5) inset;
 }
 .project5-image{
     background-position-x: center; 
