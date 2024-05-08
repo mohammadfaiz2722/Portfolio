@@ -92,6 +92,9 @@ background: url('./mern-stack.png');
 }
 .new-project2-des,
 .new-project3-des{
+    margin-left: 6%;
+}
+.new-project3-des{
     margin-left: 7%;
 }
 /* Link to portfolio */

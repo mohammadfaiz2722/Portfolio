@@ -1,4 +1,5 @@
 // components/Footer.js
+"use client"
 import React from 'react';
 import './Footer.css'
 import { Facebook, Instagram, Twitter } from 'react-feather';
