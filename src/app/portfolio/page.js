@@ -4,6 +4,7 @@ import SecondPort from './SecondPort'
 import Link from 'next/link';
 import Hamburger from '../components/Hamburger';
 import { useState } from 'react';
+import WhereLearn from './WhereLearn';
 const resumePdf = '/resume.pdf';
 // import { useRouter } from 'next/navigation';
 // useEffect
@@ -42,7 +43,8 @@ const page = () => {
     My skills encompass a wide range of capabilities crucial for modern development and engineering tasks. I excel in crafting robust applications and solving complex challenges. With a strong foundation in software engineering principles and a knack for problem-solving, I consistently deliver efficient and scalable solutions. My adaptability and continuous learning mindset ensure I stay effective across diverse projects and domains
     </div>
     <SecondPort/>
-
+    <WhereLearn/>
+    
     </>
   )
 }

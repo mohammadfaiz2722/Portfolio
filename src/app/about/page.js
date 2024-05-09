@@ -5,6 +5,7 @@ import PersonalInfo from './PersonalInfo'
 import Link from 'next/link';
 import Hamburger from '../components/Hamburger';
 import { useState } from 'react';
+// import WhereLearn from '../portfolio/WhereLearn';
 const resumePdf = '/resume.pdf';
 const page = () => {
   const [mobile,setMobile]=useState(false)
@@ -40,6 +41,7 @@ const page = () => {
     Explore my world as Mohammad Faiz, a driven MERN Stack Developer and Computer Applications enthusiast. Journey through my professional and educational endeavors, discovering a passion for web development and a commitment to crafting innovative solutions. Let's connect and innovate together!
     </div>
     <PersonalInfo/>
+
     </>
   )
 }
