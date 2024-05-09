@@ -1,100 +1,40 @@
-#last-box{
-    /* border: 2px solid red; */
-    /* height: 30vw; */
-    /* position: absolute; */
-    /* overflow: auto; */
-    /* background-color: rebeccapurple; */
-    /* margin-top: 19%; */
-    /* height: 40vh; */
-}
-
 .about-box{
     width: auto;
-    height: 40vh;
+    height: 60vh;
     /* background-color: red; */
 }
-.head{
-    width: fit-content;
-    height: fit-content;
-    /* border: 2px solid black; */
-    position: absolute;
-    /* margin-top: 1px; */
-    margin-top: -15%;
-    text-decoration: underline;
-    left: 12px;
-    /* margin-right: 22px; */
-    /* top: 10%; */
-
+.myhobbies{
+  background: url('../components/hobbies.png');
 }
-
-.details{
-    width: fit-content;
-    height: fit-content;
-    /* border: 2px solid black; */
-    position: absolute;
-    left: 15%;
-
-    margin-top: -11%;
+.myeduc{
+  background: url('../components/education.jpg');
 }
-.underline{
-    background-color: #130303;
-    width: 100vw;
-    height: 2vh;
-    /* border: wpx solid black; */
+.myphoto{
+background: url('./me.jpg');
+background-position:center !important;
+background-position-y: -7cap !important;
+height: 38vh !important;
+margin-top: -9% !important;
 }
-.second-box{
-    /* background-color: rebeccapurple; */
-    /* z-index: 11111; */
-    /* border: 2px solid red; */
-    height: 80vh;
+.myphoto,.myeduc,.myhobbies{
+  width: 18vw;
+  height: 30vh;
+  /* border: 2px solid red; */
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5)  ;
+  position: absolute;
+  margin-top: -13%;
+  background-position: -5cap;
+  border-radius: 12px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-@media screen and (max-width: 700px) {
-
-    .custom{
-        width: 101vw;
-        height: 60vh;
-      
-      }
-      #About-me{
-        width: 101vw;
-      }
-      .details{
-        left: 1%;
-        font-size: 1rem;
-      }
-      .underline{
-        /* display: none; */
-        margin-top: 70%;
-      }
-      .head{
-        top: 100%;
-      }
-      #head1{
-        top:86%;
-        left: 35%;
-        font-weight: bolder;
-        font-size: 20px;
-      }
-      #head2{
-        top:139%;
-        left: 29%;
-        font-weight: bolder;
-        font-size: 20px;
-      }
-      #head3{
-        top:196%;
-        left:30%;
-        font-weight: bolder;
-        font-size: 20px;
-      }
-      #last-para{
-        position: absolute;
-        top: 201%;
-
-      }
-      .second-last-box
-      {
-top: 145%;
-      }
+.about-myself{
+  width: 70vw;
+  height: 50vh;
+/* border: 2px solid red; */
+position: absolute;
+left: 25%;
+font-family: "Playfair Display", serif;
+margin-top: -2%;
 }
+/* @media screen and (max-width: 700px) {} */
