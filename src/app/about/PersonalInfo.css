@@ -11,16 +11,13 @@
 }
 .myphoto{
 background: url('./me.jpg');
-background-position:center !important;
-background-position-y: -7cap !important;
-height: 38vh !important;
-margin-top: -9% !important;
+
 }
 .myphoto,.myeduc,.myhobbies{
   width: 18vw;
   height: 30vh;
   /* border: 2px solid red; */
-  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5)  ;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
   position: absolute;
   margin-top: -13%;
   background-position: -5cap;
@@ -28,13 +25,44 @@ margin-top: -9% !important;
   background-size: cover;
   background-repeat: no-repeat;
 }
+.myphoto{
+  background-position:center ;
+  background-position-y: -7cap ;
+  height: 38vh ;
+  margin-top: -9% ;
+}
 .about-myself{
   width: 70vw;
   height: 50vh;
-/* border: 2px solid red; */
-position: absolute;
-left: 25%;
-font-family: "Playfair Display", serif;
-margin-top: -2%;
+  /* border: 2px solid red; */
+  position: absolute;
+  left: 25%;
+  font-family: "Playfair Display", serif;
+  margin-top: -2%;
 }
-/* @media screen and (max-width: 700px) {} */
+@media screen and (max-width: 700px) {
+  .about-myself{
+    /* border:2px solid red; */
+    overflow: auto;
+    margin-top: 69%;
+    width: 100vw;
+    margin-left: -25%;
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
+    height: 29vh;
+  }
+  .myphoto,.myeduc,.myhobbies{
+    width: 100vw;
+    height: 30vh ;
+    background-position: center  ;
+    position: absolute;
+margin-top: -65% ;
+border-radius: 0px;
+    /* border: 2px solid red; */
+
+#About-me{
+  position: absolute;
+  margin-top: 110%;
+}
+
+  }
+}

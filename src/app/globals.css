@@ -86,7 +86,7 @@
       display: block;
     }
     .custom{
-      width: 101vw;
+      width: 101vw !important;
       height: 60vh;
     
     }

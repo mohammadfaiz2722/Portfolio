@@ -86,7 +86,7 @@ const SecondBox = () => {
           </div>
         </div>
 
-          <Link className='more' href="https://images.search.yahoo.com/search/images;_ylt=Awr.05PYGTlmhagVkT5XNyoA;_ylu=Y29sbwNncTEEcG9zAzEEdnRpZAMEc2VjA3BpdnM-?p=Chutiye+images&fr2=piv-web&type=E211US885G0&fr=mcafee#id=11&iurl=https%3A%2F%2Fstickerly.pstatic.net%2Fsticker_pack%2FFcxo0AZ8oaXXrzH693IC9w%2FBKPI4Q%2F2%2F87e34e7c-fb5e-4b01-886a-bdb2ea67341d.png&action=click">Deep Dive in my projects</Link>
+          <Link className='more' href="https://github.com/mohammadfaiz2722">Deep Dive in my projects</Link>
       </div>
       {/* <Footer/> */}
     </div>
