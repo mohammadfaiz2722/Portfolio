@@ -1,19 +1,36 @@
-.about-box{
-    width: auto;
-    height: 60vh;
-    /* background-color: red; */
+.about-box {
+  width: auto;
+  height: 60vh;
 }
-.myhobbies{
+
+.myhobbies {
   background: url('../components/hobbies.png');
 }
-.myeduc{
+
+.myeduc {
   background: url('../components/education.jpg');
 }
-.myphoto{
-background: url('./me.jpg');
+
+.myphoto {
+  background: url('./me.jpg');
 
 }
-.myphoto,.myeduc,.myhobbies{
+
+.personalheading,
+.Newpersonalheading {
+
+  font-family: "Playfair Display SC", serif;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  height: 10vh;
+  padding: 13px 22px;
+  background-color: #090C02;
+  color: white;
+}
+
+.myphoto,
+.myeduc,
+.myhobbies {
   width: 18vw;
   height: 30vh;
   /* border: 2px solid red; */
@@ -25,44 +42,103 @@ background: url('./me.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
-.myphoto{
-  background-position:center ;
-  background-position-y: -7cap ;
-  height: 38vh ;
-  margin-top: -9% ;
+
+.myphoto {
+  background-position: center;
+  background-position-y: -7cap;
+  height: 38vh;
+  margin-top: -9%;
 }
-.about-myself{
+
+.about-myself {
   width: 70vw;
   height: 50vh;
-  /* border: 2px solid red; */
   position: absolute;
   left: 25%;
   font-family: "Playfair Display", serif;
   margin-top: -2%;
 }
-@media screen and (max-width: 700px) {
-  .about-myself{
-    /* border:2px solid red; */
-    overflow: auto;
-    margin-top: 69%;
-    width: 100vw;
-    margin-left: -25%;
-    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.5);
-    height: 29vh;
-  }
-  .myphoto,.myeduc,.myhobbies{
-    width: 100vw;
-    height: 30vh ;
-    background-position: center  ;
-    position: absolute;
-margin-top: -65% ;
-border-radius: 0px;
-    /* border: 2px solid red; */
 
-#About-me{
-  position: absolute;
-  margin-top: 110%;
+.Newpersonalheading {
+  display: none;
 }
 
+.none,
+.none-educ,
+.none-hobby {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .about-myself {
+    /* overflow: auto; */
+    margin-top: 88%;
+    width: 100vw;
+    margin-left: -25%;
+    height: 29vh;
+    font-size: 1rem;
+  }
+
+  .myphoto,
+  .myeduc,
+  .myhobbies {
+    width: 100vw;
+    height: 30vh;
+    background-position: center;
+    position: absolute;
+    margin-top: -60%;
+    border-radius: 0px;
+
+
+  }
+  .myeduc {
+    margin-top: 80%;
+  }
+
+  .myhobbies {
+    margin-top: 160%;
+
+  }
+
+  .about-educ {
+    margin-top: 170%;
+  }
+
+  .about-hobby {
+ margin-top: 250%;
+  }
+
+  .none,
+  .none-educ,
+  .none-hobby {
+    display: block;
+    margin-top: 20%;
+    font-size: 1.4rem;
+    margin-bottom: 1%;
+    margin-left: 4%;
+    text-decoration: underline;
+  }
+
+  .none-educ,
+  .none-hobby {
+    margin-left: -55%;
+  }
+
+  .Newpersonalheading {
+    display: block;
+    width: 101vw;
+    font-size: 1.2rem;
+  }
+
+  .personalheading {
+
+    display: none;
+
+  }
+
+  .wrapper {
+    height: 290vh;
+    background-color: #D6D6B1;
+    width: 101vw;
   }
 }
