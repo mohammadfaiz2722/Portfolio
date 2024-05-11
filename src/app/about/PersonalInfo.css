@@ -72,14 +72,14 @@
 @media screen and (max-width: 700px) {
   .about-myself {
     /* overflow: auto; */
-    margin-top: 88%;
+    margin-top: 100%;
     width: 100vw;
     margin-left: -25%;
     height: 29vh;
     font-size: 1rem;
   }
 
-  .myphoto,
+
   .myeduc,
   .myhobbies {
     width: 100vw;
@@ -92,20 +92,29 @@
 
   }
   .myeduc {
-    margin-top: 80%;
+    margin-top: 63%;
   }
 
   .myhobbies {
     margin-top: 160%;
 
   }
+  .myphoto{
+    width: 100vw;
+    height: 30vh;
+    background-position: center;
+    position: absolute;
+    margin-top: -65%;
+    border-radius: 0px;
 
-  .about-educ {
+  }
+
+  #about-educ {
     margin-top: 170%;
   }
 
-  .about-hobby {
- margin-top: 250%;
+  #about-hobby {
+ margin-top: 260%;
   }
 
   .none,
