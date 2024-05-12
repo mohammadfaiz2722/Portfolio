@@ -6,6 +6,7 @@ import Hamburger from '../components/Hamburger';
 import { useState } from 'react';
 import WhereLearn from './WhereLearn';
 const resumePdf = '/resume.pdf';
+import './port.css'
 // import { useRouter } from 'next/navigation';
 // useEffect
 const page = () => {

@@ -78,6 +78,9 @@
     height: 29vh;
     font-size: 1rem;
   }
+  .show{
+    display: block;
+  }
 
 
   .myeduc,
@@ -104,17 +107,20 @@
     height: 30vh;
     background-position: center;
     position: absolute;
-    margin-top: -65%;
+    margin-top: -60%;
     border-radius: 0px;
 
   }
 
   #about-educ {
-    margin-top: 170%;
+    margin-top: 160%;
+    font-size: 0.9rem;
   }
-
+  
   #about-hobby {
- margin-top: 260%;
+    margin-top: 260%;
+    font-size: 0.9rem;
+    
   }
 
   .none,

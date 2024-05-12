@@ -8,7 +8,8 @@
   } */
   .main-box {
     height: 180vh;
-    background-color: #DBD8B3;
+    background-color: #F8F8F8;
+    color: #333333;
 }
 
 .projects-container {

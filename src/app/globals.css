@@ -32,7 +32,8 @@
   .ham{
     position: absolute;
     right:7%;
-    top:3%;
+    top:32px;
+    margin-right: 12px;
     display: none;
 
   }
@@ -83,6 +84,10 @@
   @media screen and (max-width: 700px) {
     /* Show hamburger icon */
     .ham {
+      display: block;
+      /* top: 4%; */
+    }
+    .show{
       display: block;
     }
     .custom{

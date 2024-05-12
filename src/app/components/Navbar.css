@@ -19,6 +19,10 @@
     nav{
         background-color: #090C02 !important;
     }
+
+    .navIcons{
+        display: none;
+    }
 @media screen and (max-width: 700px) {
     #fonts{
         display: none;
@@ -26,4 +30,13 @@
     nav{
         width: 101vw;
     }
+    .navIcons {
+        display: flex;
+        /* align-items: ; */
+        margin-left: -76%; /* Adjust the value as needed */
+      }
+      
+      .navIcon {
+            margin-right: 1rem; /* Adjust the value as needed */
+      }
 }

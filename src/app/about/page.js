@@ -6,14 +6,15 @@ import Link from 'next/link';
 import Hamburger from '../components/Hamburger';
 // import '../globals.css'
 
-const resumePdf = '/resume.pdf';
 
+const resumePdf = '/resume.pdf';
 const Page = () => {
   const [mobile, setMobile] = useState(false);
 
   const handleClick = () => {
     setMobile(!mobile);
-    console.log("Clicked");
+    console.log("Clicked");console.log(mobile);
+
   };
 
   return (

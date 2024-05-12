@@ -10,7 +10,8 @@ const FirstBox = () => {
   const [about,setAbout]=useState(false)
   const handleClick=()=>{
     setAbout(!about);
-    console.log("On clicked caleed");
+    console.log(about);
+    // console.log("On clicked caleed");
   
   }
   
