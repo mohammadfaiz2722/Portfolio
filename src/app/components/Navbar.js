@@ -8,7 +8,7 @@ const resumePdf = '/resume.pdf';
 const Navbar = () => {
   return (
     <>
-    <nav className="bg-semi-black shadow dark:bg-gray-900 nav">
+    <nav className=" shadow dark:bg-gray-900 nav">
       <div className="container1 flex items-center justify-center p-6 mx-auto text-white capitalize dark:text-gray-300">
         {/* <div className="rounded-full overflow-hidden h-12 w-12 mr-2">
           <Image src={profileImage} width={100} height={100} alt="Profile Image" />

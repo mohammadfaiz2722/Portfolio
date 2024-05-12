@@ -1,49 +1,41 @@
 "use client"
-import React from 'react'
-import './about.css'
-import PersonalInfo from './PersonalInfo'
+import React, { useState } from 'react';
+import './about.css';
+import PersonalInfo from './PersonalInfo';
 import Link from 'next/link';
 import Hamburger from '../components/Hamburger';
-import { useState } from 'react';
-// import WhereLearn from '../portfolio/WhereLearn';
+// import '../globals.css'
+
 const resumePdf = '/resume.pdf';
-const page = () => {
-  const [mobile,setMobile]=useState(false)
-  const handleClick=()=>{
+
+const Page = () => {
+  const [mobile, setMobile] = useState(false);
+
+  const handleClick = () => {
     setMobile(!mobile);
-  
-  }
+    console.log("Clicked");
+  };
+
   return (
     <>
-
-     <div className="ham" onClick={handleClick}>
-          <Hamburger/>
+      <div className="ham" onClick={handleClick}>
+        <Hamburger/>
+      </div>
+      <div className={`mobile-menu${mobile ? ' show' : ''}`}>
+        <div className="close-cross" onClick={handleClick}>
+          &times;
         </div>
-    <div className={`mobile-menu ${ mobile?' show' :''}`}>
-      <div className="close-cross" onClick={handleClick}>
-      &times;
-
+        <Link href="/" className="menu-link">Home</Link>
+        <Link href="/about" className="menu-link">About</Link>
+        <Link href="portfolio" className="menu-link">Portfolio</Link>
+        <Link href={resumePdf} target="_blank" rel="noopener noreferrer" className="menu-link">Resume</Link>
       </div>
-      <Link href="/" id='fonts1' className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Home</Link>
-        <Link href="/about" id='fonts2'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">About</Link>
-        <Link href="portfolio" id='fonts3'className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6">Portfolio</Link>
-        <Link 
-        id='fonts4'
-          href={resumePdf}
-          className="border-b-2 border-transparent hover:text-gray-300 dark:hover:text-gray-200 hover:border-white mx-1.5 sm:mx-6"
-          target="_blank"
-          rel="noopener noreferrer"
-        > 
-          Resume
-        </Link>
+      <div className='about-box text custom' id='imp'>
+        Explore my world as Mohammad Faiz, a driven MERN Stack Developer and Computer Applications enthusiast. Journey through my professional and educational endeavors, discovering a passion for web development and a commitment to crafting innovative solutions. Let's connect and innovate together!
       </div>
-    <div className='about-box text custom' id='imp' >
-    Explore my world as Mohammad Faiz, a driven MERN Stack Developer and Computer Applications enthusiast. Journey through my professional and educational endeavors, discovering a passion for web development and a commitment to crafting innovative solutions. Let's connect and innovate together!
-    </div>
-    <PersonalInfo/>
-
+      <PersonalInfo/>
     </>
-  )
-}
+  );
+};
 
-export default page
+export default Page;

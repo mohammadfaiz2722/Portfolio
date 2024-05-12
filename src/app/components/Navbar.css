@@ -16,6 +16,9 @@
         width: 100%;
         z-index: 1000; 
     } */
+    nav{
+        background-color: #090C02 !important;
+    }
 @media screen and (max-width: 700px) {
     #fonts{
         display: none;

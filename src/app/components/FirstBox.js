@@ -7,9 +7,9 @@ import Link from 'next/link';
 import Hamburger from './Hamburger';
 const resumePdf = '/resume.pdf';
 const FirstBox = () => {
-  const [mobile,setMobile]=useState(false)
+  const [about,setAbout]=useState(false)
   const handleClick=()=>{
-    setMobile(!mobile);
+    setAbout(!about);
     console.log("On clicked caleed");
   
   }
@@ -26,7 +26,7 @@ const FirstBox = () => {
     <div className="ham" onClick={handleClick}>
           <Hamburger/>
         </div>
-    <div className={`mobile-menu ${ mobile?' show' :''}`}>
+    <div className={`mobile-menu ${ about?' show' :''}`}>
       <div className="close-cross" onClick={handleClick}>
       &times;
 
