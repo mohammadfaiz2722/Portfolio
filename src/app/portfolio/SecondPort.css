@@ -8,8 +8,8 @@
   } */
   .main-box {
     height: 180vh;
-    background-color: #F8F8F8;
-    color: #333333;
+    background-color: #DBD8B3;
+    background-color: #FFFFFF;
 }
 
 .projects-container {
@@ -148,7 +148,6 @@ background: url('./mern-stack.png');
 .more{
 
     margin-top: 130%;
-    border: 2px solid red;
     width: 200px;
     position: absolute;
 

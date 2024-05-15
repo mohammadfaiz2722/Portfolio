@@ -34,7 +34,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           className='navIcon'
         >
-          <FaTwitter size="1.3rem" color="#1DA1F2" />
+         <p style={{color:'E5E5E5',fontSize:'1.3rem',marginTop:'-3px'}}>𝕏</p>
         </a>
       </div>
 

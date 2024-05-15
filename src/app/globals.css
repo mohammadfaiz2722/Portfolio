@@ -15,9 +15,10 @@
       justify-content: left; 
       align-items: center; 
       height: 70vh; 
-      background-color:#D6D6B1;
+      background-color:#FFFFFF;
       /* B89E97 */
       font-weight: bold;
+      color: #000000;
     /* width: 100vw; */
     }
     .heading {
@@ -32,7 +33,7 @@
   .ham{
     position: absolute;
     right:7%;
-    top:32px;
+    top:35px;
     margin-right: 12px;
     display: none;
 

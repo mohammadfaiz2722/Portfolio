@@ -4,7 +4,7 @@
 }
 
 .myhobbies {
-  background: url('../components/hobbies.png');
+  background: url('./myhobbies.jpg');
 }
 
 .myeduc {
@@ -42,7 +42,12 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-
+.myhobbies{
+  background-position:center ;
+  /* background-position-y: -.1cap ; */
+  height: 22vh;
+  margin-top: -14%;
+}
 .myphoto {
   background-position: center;
   background-position-y: -7cap;
@@ -154,6 +159,7 @@
   .wrapper {
     height: 290vh;
     background-color: #D6D6B1;
+    background-color: #FFFFFF;
     width: 101vw;
   }
 }
