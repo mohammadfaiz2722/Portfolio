@@ -159,7 +159,7 @@
   .wrapper {
     height: 290vh;
     background-color: #D6D6B1;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     width: 101vw;
   }
 }
