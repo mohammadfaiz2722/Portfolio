@@ -42,7 +42,7 @@ const SecondPort = () => {
           <div className="project3">
             <div className="new-image-box">
               <div className="new-project3-image">
-                <div className="des">Java is a high-level, object-oriented programming language known for its portability and versatility. It uses a &quot;write once, run anywhere&quot; approach, allowing developers to create applications that can run on any platform with a Java Virtual Machine (JVM). Java is commonly used for building enterprise-level applications, Android apps, web applications, and large-scale systems due to its robustness and wide adoption.</div>
+                <div className="des">Java is a high-level object-oriented programming language known for its portability and versatility It uses a write once run anywhere approach allowing developers to create applications that can run on any platform with a Java Virtual Machine . Java is commonly used for building enterprise-level applications Android apps web applications and large-scale systems due to its robustness and wide adoption.</div>
               </div>
             </div>
             <div className="new-project3-des">

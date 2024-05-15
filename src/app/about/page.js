@@ -32,7 +32,7 @@ const Page = () => {
         <Link href={resumePdf} target="_blank" rel="noopener noreferrer" className="menu-link">Resume</Link>
       </div>
       <div className='about-box text custom' id='imp'>
-        Explore my world as Mohammad Faiz, a driven MERN Stack Developer and Computer Applications enthusiast. Journey through my professional and educational endeavors, discovering a passion for web development and a commitment to crafting innovative solutions. Let's connect and innovate together!
+        Explore my world as Mohammad Faiz a driven MERN Stack Developer and Computer Applications enthusiast. Journey through my professional and educational endeavors discovering a passion for web development and a commitment to crafting innovative solutions. Lets connect and innovate together.
       </div>
       <PersonalInfo/>
     </>
