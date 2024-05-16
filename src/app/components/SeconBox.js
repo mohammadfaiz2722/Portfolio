@@ -14,7 +14,7 @@ const SecondBox = () => {
           <div className="image-box">
             <Link href='https://github.com/mohammadfaiz2722/NotesWebsite.github.io'>
               <div className="project1-image">
-                <div className="des">A web application built using vanilla JavaScript HTML and Bootstrap that allows users to create and save notes. Users can add titles and content to their notes which are then stored in the browser's local storage for easy access and retrieval. The intuitive interface and responsive design enhance the note-taking experience making it convenient for users to organize their thoughts and ideas.</div>
+                <div className="des">A web application built using vanilla JavaScript HTML and Bootstrap that allows users to create and save notes. Users can add titles and content to their notes which are then stored in the browsers local storage for easy access and retrieval. The intuitive interface and responsive design enhance the note-taking experience making it convenient for users to organize their thoughts and ideas.</div>
               </div>
             </Link>
           </div>
@@ -28,7 +28,7 @@ const SecondBox = () => {
           <div className="image-box">
             <Link href='https://github.com/mohammadfaiz2722/LibraryManagement.github.io'>
               <div className="project2-image">
-                <div className="des">A robust web application developed using vanilla JavaScript HTML and Bootstrap for managing library resources efficiently. Users can input book details such as title author and type with the data seamlessly stored in the browser's local storage. This system offers a user-friendly interface for adding editing and organizing books empowering librarians or book enthusiasts to maintain a structured and accessible library catalog.</div>
+                <div className="des">A robust web application developed using vanilla JavaScript HTML and Bootstrap for managing library resources efficiently. Users can input book details such as title author and type with the data seamlessly stored in the browsers local storage. This system offers a user-friendly interface for adding editing and organizing books empowering librarians or book enthusiasts to maintain a structured and accessible library catalog.</div>
               </div>
             </Link>
           </div>
