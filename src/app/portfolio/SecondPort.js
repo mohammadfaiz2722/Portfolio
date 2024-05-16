@@ -29,7 +29,7 @@ const SecondPort = () => {
             <div className="new-image-box">
               <Link href='https://docs.oracle.com/en/java/'>
                 <div className="new-project2-image">
-                  <div className="des">Python is a high-level, interpreted programming language known for its simplicity and readability. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python's extensive standard library and community-driven ecosystem make it versatile for various tasks, from web development and data analysis to artificial intelligence and automation. Its concise syntax and dynamic typing make it beginner-friendly and efficient for rapid development.</div>
+                  <div className="des">Python is a high-level, interpreted programming language known for its simplicity and readability. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Pythons extensive standard library and community-driven ecosystem make it versatile for various tasks, from web development and data analysis to artificial intelligence and automation. Its concise syntax and dynamic typing make it beginner-friendly and efficient for rapid development.</div>
                 </div>
               </Link>
             </div>

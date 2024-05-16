@@ -19,7 +19,7 @@ const FirstBox = () => {
     <>
     <div className="container custom">
       <h7 className="text">
-      I'm Mohammad Faiz, a MERN Stack Developer and Bachelor of Computer Applications student. I'm passionate about web development, specializing in MongoDB, Express.js, React.js, and Node.js. Eager to solve challenges and create user-centric applications.
+      Im Mohammad Faiz, a MERN Stack Developer and Bachelor of Computer Applications student. Im passionate about web development, specializing in MongoDB, Express.js, React.js, and Node.js. Eager to solve challenges and create user-centric applications.
 
 
       </h7>
