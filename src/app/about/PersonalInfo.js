@@ -19,7 +19,7 @@ const PersonalInfo = () => {
       </div>
      
   
-      <div className='about-box' port text custom>
+      <div className='about-box port text custom'>
         <div className="myphoto"></div>
         <p className='none'><strong>About me</strong></p>
         <div className="about-myself about-mee" id="about-mee">
@@ -31,7 +31,7 @@ const PersonalInfo = () => {
       <div className="personalheading text-center">
         My Education
       </div>
-      <div className='about-box' text custom>
+      <div className='about-box text custom'>
         <div className="myeduc"></div>
         <div className="about-myself about-educ" id="about-educ">
   <p className='none-educ'><strong>My Education</strong></p>
@@ -42,7 +42,7 @@ const PersonalInfo = () => {
       <div className="personalheading text-center" >
         My Hobbies
       </div>
-      <div className='about-box' text custom>
+      <div className='about-box text custom'>
         <div className="myhobbies"></div>
         <div className="about-myself about-hobby" id="about-hobby">
   <p className='none-hobby'><strong>My Hobbies</strong></p>

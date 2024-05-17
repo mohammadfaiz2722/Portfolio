@@ -100,11 +100,11 @@
 
   }
   .myeduc {
-    margin-top: 63%;
+    margin-top: 50%;
   }
 
   .myhobbies {
-    margin-top: 160%;
+    margin-top: 150%;
 
   }
   .myphoto{
@@ -112,7 +112,7 @@
     height: 30vh;
     background-position: center;
     position: absolute;
-    margin-top: -60%;
+    margin-top: -70%;
     border-radius: 0px;
 
   }
