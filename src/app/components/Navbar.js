@@ -4,7 +4,7 @@ import Link from 'next/link';
 import './Navbar.css';
 import { FaInstagram, FaGithub,FaTwitter } from 'react-icons/fa';
 
-const resumePdf = '/resume.pdf';
+const resumePdf = '/FaizMernNew.pdf';
 
 const Navbar = () => {
   return (
