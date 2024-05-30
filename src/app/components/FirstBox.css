@@ -9,7 +9,7 @@ div{
 /* Responsive dropwdown css */
 
 /* Media query for mobile devices */
-@media screen and (max-width: 700px) {
+@media screen and (max-width:  1200px) {
 /* Show hamburger icon */
 .ham {
   display: block;

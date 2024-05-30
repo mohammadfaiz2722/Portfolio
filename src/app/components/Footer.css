@@ -55,7 +55,7 @@ footer {
     background-color: #090C02;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width:  1200px) {
     .icons {
         position: absolute;
         left: 55%;

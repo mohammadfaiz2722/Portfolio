@@ -8,6 +8,9 @@ const SecondBox = () => {
       <div className="heading text-center">
         A glimpse of my Projects
       </div>
+      <div className="flex justify-center  text-gray-500 text-sm bg-new-gray" style={{width:'101vw'}}>
+        <span className="sm:hidden">Scroll to see more projects &rarr;</span>
+      </div>
       <div className="main-box">
         {/* Project 1 */}
         <div className="project1">

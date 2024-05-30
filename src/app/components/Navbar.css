@@ -23,7 +23,7 @@
     .navIcons{
         display: none;
     }
-@media screen and (max-width: 700px) {
+@media screen and (max-width:  1200px) {
     #fonts{
         display: none;
     }

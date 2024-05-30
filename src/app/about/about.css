@@ -7,7 +7,7 @@
     height: 70vh ;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width:  1200px) {
 #imp{
     font-size: 1rem;
     height: 60vh;

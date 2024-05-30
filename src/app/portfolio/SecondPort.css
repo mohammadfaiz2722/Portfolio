@@ -109,7 +109,7 @@ background: url('./mern-stack.png');
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1200px) {
     .heading{
         width: 101vw;
     }

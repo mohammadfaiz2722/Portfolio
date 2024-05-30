@@ -9,7 +9,11 @@ const SecondPort = () => {
         <div className="heading text-center">
           Technologies I Know
         </div>
+        <div className="flex justify-center  text-gray-500 text-sm bg-new-gray" style={{width:'101vw'}}>
+        <span className="sm:hidden">Scroll to see more Technologies &rarr;</span>
+      </div>
         <div className="main-box">
+          
           {/* Project 1 */}
           <div className="project1">
             <div className="new-image-box">
