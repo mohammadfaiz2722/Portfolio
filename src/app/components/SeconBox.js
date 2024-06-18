@@ -17,7 +17,7 @@ const SecondBox = () => {
           <div className="image-box">
             <Link href='https://github.com/mohammadfaiz2722/NotesWebsite.github.io'>
               <div className="project1-image">
-                <div className="des">A web application built using vanilla JavaScript HTML and Bootstrap that allows users to create and save notes. Users can add titles and content to their notes which are then stored in the browsers local storage for easy access and retrieval. The intuitive interface and responsive design enhance the note-taking experience making it convenient for users to organize their thoughts and ideas.</div>
+                <div className="des" style={{textAlign:'justify'}}>A web application built using vanilla JavaScript HTML and Bootstrap that allows users to create and save notes. Users can add titles and content to their notes which are then stored in the browsers local storage for easy access and retrieval. The intuitive interface and responsive design enhance the note-taking experience making it convenient for users to organize their thoughts and ideas.</div>
               </div>
             </Link>
           </div>
